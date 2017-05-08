@@ -1,0 +1,28 @@
+
+---
+ar_internal_metadata:
+  columns:
+  - key
+  - value
+  - created_at
+  - updated_at
+  records: 
+  - - environment
+    - development
+    - 2017-05-04 16:40:20.000000000 Z
+    - 2017-05-04 16:40:20.000000000 Z
+
+---
+items:
+  columns:
+  - id
+  - name
+  - content
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - Cheddar
+    - It's yellow.
+    - 2017-05-04 16:42:04.000000000 Z
+    - 2017-05-04 16:42:04.000000000 Z

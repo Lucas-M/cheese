@@ -1,14 +1,15 @@
+<div class="btn-group" role="group" aria-label="Basic example">
+  <%= link_to 'Home', "/greetings/hello", :class => "btn btn-primary", :style=>"color:#FFFFFF;" %> 
+  <%= link_to 'Cheeses', "/items", :class => "btn btn-primary", :style=>"color:#FFFFFF;" %>
+</div>
 
 <h1>Welcome to the Cheosk</h1>
 <p><%= @message %></p>
+
+<p>Simply select cheese from above. Once there you can select a cheese to add to your collection and review it if you want.</p>
 <!-- TODO put link here DONE!!-->
   	<!-- <button type="button" class="btn btn-primary">Cheesey</button> -->
 
 
 
 
-<%= link_to "Goodbye", "/greetings/goodbye" %>
-<br>
-<!-- <div class="btn btn-primary"> -->
-  <%= link_to 'Edit', "/greetings/goodbye", :class => "btn btn-primary" %>
-<!-- </div> -->

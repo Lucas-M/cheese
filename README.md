@@ -1,5 +1,22 @@
 # README
 
+The inspiration for the app is a 3 ring binder where you can sign a page that cooresponds to a cheese. 
+
+This app is intended to have a user sign in, select a cheese, and give possibly give it some comments.
+
+
+I have install sdoc to document the application.
+
+
+
+
+
+
+
+
+
+
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 

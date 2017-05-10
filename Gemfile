@@ -52,6 +52,10 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
+#############################################################
+#    New Gems
+#############################################################
+
 # Used to dump the db. Can be restored to other format of db.
 gem 'yaml_db'
 
@@ -62,7 +66,9 @@ gem 'autoprefixer-rails'
 
 gem 'rails_bootstrap_navbar'
 
+# sdoc is the old default rails doc tool...why take it out? not sure...
 
+gem 'sdoc'
 
 
 

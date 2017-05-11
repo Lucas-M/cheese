@@ -26,3 +26,28 @@ items:
     - It's yellow.
     - 2017-05-04 16:42:04.000000000 Z
     - 2017-05-04 16:42:04.000000000 Z
+  - - 2
+    - Swiss
+    - This is a white cheese.
+    - 2017-05-07 02:35:11.000000000 Z
+    - 2017-05-07 02:35:11.000000000 Z
+  - - 3
+    - Monster
+    - Green with black spots.
+    - 2017-05-09 16:31:51.000000000 Z
+    - 2017-05-09 16:31:51.000000000 Z
+
+---
+posts:
+  columns:
+  - id
+  - content
+  - price
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - The cheddar is gross.
+    - 10
+    - 2017-05-11 00:57:24.000000000 Z
+    - 2017-05-11 00:57:24.000000000 Z

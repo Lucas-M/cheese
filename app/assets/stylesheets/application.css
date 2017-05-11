@@ -13,3 +13,14 @@
  *= require_tree .
  *= require_self
  */
+
+
+span.item {
+	border: 3px solid black;
+	border-radius: 15px;
+	margin: 5px;
+    padding-bottom: 10px;	
+    padding-left: 10px;
+	float: left;
+	background: orange;
+}

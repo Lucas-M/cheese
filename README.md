@@ -6,7 +6,7 @@ This app is intended to have a user sign in, select a cheese, and give possibly 
 
 
 I have install sdoc to document the application.
-
+see: https://everydayrails.com/2017/03/01/rails-5-app-documentation.html
 
 
 

@@ -35,14 +35,14 @@
 </table>
 -->
 
-    <% @items.each do |item| %>
-      <span class="item">
-        <p><strong><%= item.name %></strong></p>
-        <p><%= item.content %></p>
-        <p>
-          <span><%= link_to 'Show', item %></span>
-          <span><%= link_to 'Edit', edit_item_path(item) %></span>
-          <span><%= link_to 'Destroy', item, method: :delete, data: { confirm: 'Are you sure?' } %></span>
-        </p>
-      </span>
-    <% end %>
+<% @items.each do |item| %>
+  <span class="item">
+    <p><strong><%= item.name %></strong></p>
+    <p><%= item.content %></p>
+    <p>
+      <span><%= link_to 'Show', item %></span>
+      <span><%= link_to 'Edit', edit_item_path(item) %></span>
+      <span><%= link_to 'Destroy', item, method: :delete, data: { confirm: 'Are you sure?' } %></span>
+    </p>
+  </span>
+<% end %>

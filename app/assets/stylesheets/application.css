@@ -14,6 +14,15 @@
  *= require_self
  */
 
+body {
+	background: #ffd699;
+	margin: 0;
+
+}
+
+.content {
+	margin:20px;
+}
 
 span.item {
 	border: 3px solid black;

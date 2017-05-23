@@ -8,7 +8,10 @@
 
 <h1>Posts</h1>
 
-<table>
+  <%= link_to 'New Post', new_post_path, :class => "btn btn-sm btn-primary", :style=>"color:#FFFFFF;" %> 
+<br>
+<br>
+<!-- <table>
   <thead>
     <tr>
       <th>Content</th>
@@ -30,6 +33,18 @@
   </tbody>
 </table>
 
-<br>
+ -->
 
-<%= link_to 'New Post', new_post_path %>
+
+    <% @posts.each do |post| %>
+      <span class="item">
+        <p><strong><%= post.content %></strong></p>
+        <p>Price: <%= post.price %></p>
+        <p>
+          <span><%= link_to 'Show', post %></span>
+          <span><%= link_to 'Edit', edit_item_path(post) %></span>
+          <span><%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %></span>
+        </p>
+      </span>
+    <% end %>
+

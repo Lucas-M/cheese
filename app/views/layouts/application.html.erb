@@ -9,8 +9,11 @@
   </head>
 
   <body>
-    <%= image_tag("cheese_header.png", :alt => "cheese header image") %>
-    <%= yield %>
+
+    <%= image_tag("cheese_header.png", :width => '100%' , :alt => "cheese header image") %>
+    <div class='content'>
+      <%= yield %>
+    </div>
   </body>
 </html>
 
